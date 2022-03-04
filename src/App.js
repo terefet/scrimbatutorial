@@ -1,3 +1,7 @@
+import React from "react"
+import Navbar from "./Component/Navbar"
+import Main from "./Component/Main"
+
 
 import './App.css';
 
@@ -5,7 +9,8 @@ function App() {
   return (
     <div className="App">
       
-        <h1>hellow terefe how are you?</h1>
+          <Navbar />
+          <Main />
       
     </div>
   );
